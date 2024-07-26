@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+    <main>
+      <div class="container">
+        <div class="tip">
+          <h2>Friends Outing</h2>
+          <label for="bill">Total Bill Amount :</label>
+          <input type="number" name="" id="bill" />
+          <label for="tip">Tip you want to pay:</label>
+          <input type="number" name="" id="tip" />
+          <label for="friends">Number of Friends:</label>
+          <input type="number" name="" id="friends" />
+          <br />
+          <button id="calculate">Calculate</button>
+          <button id="clear">Clear</button>
+          <br />
+          <label for="tip-percent1"
+            >Tip %: <b><span id="tip-percent1"></span></b
+          ></label>
+          <label for="total"
+            >Total: <b><span id="total"></span></b
+          ></label>
+        </div>
+        <!--tip-->
+        <div class="dutch">
+          <h2>Dutch</h2>
+          <label for="bill-dutch">Total Bill Amount:</label>
+          <input type="number" name="" id="bill-dutch" />
+          <label for="tip-dutch">Tip you want to pay:</label>
+          <input type="number" name="" id="tip-dutch" />
+          <br />
+          <button id="calculate-dutch">Calculate</button>
+          <button id="clear-dutch">Clear</button>
+          <br />
+          <label for="tip-percent2"
+            >Tip %: <b><span id="tip-percent2"></span></b
+          ></label>
+          <label for="total-dutch"
+            >Total: <b><span id="total-dutch"></span></b
+          ></label>
+        </div>
+        <!--dutch-->
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

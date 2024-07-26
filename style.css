@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+main {
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+label {
+  font-size: x-large;
+}
+
+.tip,
+.dutch {
+  text-align: center;
+  width: 45%;
+}
+
+span {
+  font-size: x-large;
+  margin-right: 10%;
+}
+
+#bill,
+#tip,
+#friends,
+#bill-dutch,
+#tip-dutch {
+  width: 100%;
+  font-size: x-large;
+}
+
+#calculate,
+#clear,
+#calculate-dutch,
+#clear-dutch {
+  background-color: green;
+  font-size: larger;
+  color: white;
+  width: 30%;
+  margin: 10px;
+}
